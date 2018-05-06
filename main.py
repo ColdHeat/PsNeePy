@@ -40,9 +40,8 @@ def inject():
     machine.Pin(GATE).value(0)
 
 
-    for i in range(25):
-        # for data in (SCEA_data, SCEE_data, SCEI_data):
-        for data in (SCEA_data,):
+    for i in range(8):
+        for data in (SCEA_data, SCEE_data, SCEI_data):
             for bit in data:
                 if bit:
                     machine.Pin(DATA, machine.Pin.IN)
@@ -60,7 +59,7 @@ def inject():
                         machine.Pin(DATA, machine.Pin.OUT)
                         machine.Pin(DATA).value(0)
                         utime.sleep_us(4000)
-        utime.sleep_ms(90)
+            utime.sleep_ms(90)
 
 
     machine.Pin(DATA, machine.Pin.IN)
@@ -71,9 +70,8 @@ def inject():
     machine.Pin(GATE, machine.Pin.OUT)
     machine.Pin(GATE).value(0)
 
-    for i in range(60):
-        # for data in (SCEA_data, SCEE_data, SCEI_data):
-        for data in (SCEA_data,):
+    for i in range(20):
+        for data in (SCEA_data, SCEE_data, SCEI_data):
             for bit in data:
                 if bit:
                     machine.Pin(DATA, machine.Pin.IN)
@@ -91,7 +89,7 @@ def inject():
                         machine.Pin(DATA, machine.Pin.OUT)
                         machine.Pin(DATA).value(0)
                         utime.sleep_us(4000)
-        utime.sleep_ms(90)
+            utime.sleep_ms(90)
 
     machine.Pin(DATA, machine.Pin.IN)
     machine.Pin(GATE, machine.Pin.IN)
