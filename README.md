@@ -3,7 +3,9 @@ A Playstation 1 Modchip written in Python
 
 The main code is derived partially from different versions of [PSNee](https://github.com/kalymos/PsNee).
 
-Unfortunately this modchip is more of a proof of concept than it is something you should use in your console. Help make it better!
+Unfortunately this modchip is more of a proof of concept than it is something you should use in your console.
+
+Help make it better by trying it out and submitting pull requests!
 
 If you're interested in a more traditional modchip like MM3 or MayumiV4, read my [blog post about making your own modchips](https://blog.kchung.co/making-playstation-modchips/).
 
