@@ -19,7 +19,7 @@ If you're interested in a more traditional modchip like MM3 or MayumiV4, read my
 
 4. Connect to the ESP8266 via WiFi and use the [WebREPL](http://micropython.org/webrepl/) to connect.
 
-    The SSID will be `MicroPython-xxxxxx` where the x's are part of the NodeMCU's MAC address. The password is `micropythoN`.
+    The SSID will be `MicroPython-xxxxxx` where the x's are part of the ESP8266's MAC address. The password is `micropythoN`.
 
 5. Upload `main.py` through the "Send a file" interface.
 
@@ -43,11 +43,11 @@ If you're interested in a more traditional modchip like MM3 or MayumiV4, read my
 
     In my PS1 I soldered [stranded wire](https://amzn.to/2IaBHcL) onto [jumpers into a breadboard](https://amzn.to/2llKUG7).
 
-    To reduce the amount of soldering I do and also make it easier to take apart later, I then use [more jumpers](https://amzn.to/2lloqoE) to connect to the NodeMCU.
+    To reduce the amount of soldering and also make removal, I use [more jumpers](https://amzn.to/2lloqoE) to connect the ESP8266 to the breadboard.
 
 7. Reboot the PS1. While the PS1 is on, the `MicroPython-xxxxxx` SSID should be available and you should be able to connect to it and update the modchip.
 
-    **Note:** You can connect the NodeMCU to your network so that you do not need to connect to the `MicroPython-xxxxxx` network but I've never done it.
+    **Note:** You can connect the ESP8266 to your network so that you do not need to connect to the `MicroPython-xxxxxx` network instead.
 
 ## Known Working PS1 Models
 
