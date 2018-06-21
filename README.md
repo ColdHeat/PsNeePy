@@ -1,6 +1,8 @@
 # PsNeePy
 A Playstation 1 Modchip written in Python
 
+![](https://raw.githubusercontent.com/wiki/ColdHeat/PsNeePy/images/ps1.jpg)
+
 The main code is derived partially from different versions of [PSNee](https://github.com/kalymos/PsNee).
 
 Unfortunately this modchip is more of a proof of concept than it is something you should use in your console.
