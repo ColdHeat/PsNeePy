@@ -3,6 +3,10 @@ A Playstation 1 Modchip written in Python
 
 The main code is derived partially from different versions of [PSNee](https://github.com/kalymos/PsNee).
 
+Unfortunately this modchip is more of a proof of concept than it is something you should use in your console. Help make it better!
+
+If you're interested in a more traditional modchip like MM3 or MayumiV4, read my [blog post about making your own modchips](https://blog.kchung.co/making-playstation-modchips/).
+
 ## Install
 
 1. To begin you need to install MicroPython onto an [ESP8266](https://amzn.to/2K4HdTq) by following the [MicroPython documentation](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/intro.html).
@@ -38,3 +42,7 @@ The main code is derived partially from different versions of [PSNee](https://gi
 7. Reboot the PS1. While the PS1 is on, the `MicroPython-xxxxxx` SSID should be available and you should be able to connect to it and update the modchip.
 
     **Note:** You can connect the NodeMCU to your network so that you do not need to connect to the `MicroPython-xxxxxx` network but I've never done it.
+
+## Known Working PS1 Models
+
+ * SCPH-7501
