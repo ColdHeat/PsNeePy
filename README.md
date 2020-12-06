@@ -54,3 +54,4 @@ If you're interested in a more traditional modchip like MM3 or MayumiV4, read my
 ## Known Working PS1 Models
 
  * SCPH-7501
+ * [SCPH-1001 (PU-8)](https://github.com/ColdHeat/PsNeePy/issues/2)
